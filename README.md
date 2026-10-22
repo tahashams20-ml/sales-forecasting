@@ -8,9 +8,6 @@ A machine learning project that forecasts weekly Walmart sales using historical 
 
 Try the deployed dashboard to explore weekly sales forecasts, store comparisons, and holiday impact insights.
 
-## Dashboard Preview
-
-![Walmart Sales Forecasting Dashboard](screenshots/walmart-dashboard.png)
 
 *Dashboard preview showing weekly sales forecasts, historical trends, top-performing stores, and holiday impact insights.*
 
@@ -40,10 +37,6 @@ The model was evaluated on a **chronological holdout set** consisting of the fin
 | Mean Absolute Error (MAE) | $40.7K | Average absolute prediction error, in the target's units |
 | Mean Absolute Percentage Error (MAPE) | 4.16% | Average absolute percentage error |
 
-\*The 95.8% figure is a project-defined metric calculated as 100% − MAPE; it is not a universal forecasting accuracy measure. Confirm that the displayed metrics were calculated on the same test set and target aggregation before comparing them.
-
-**Important:** MAE depends on the scale of the prediction target. If predictions are aggregated across stores, explain that aggregation clearly so readers can interpret the $40.7K error correctly.
-
 ## Technology Stack
 
 - **Language:** Python
@@ -51,7 +44,6 @@ The model was evaluated on a **chronological holdout set** consisting of the fin
 - **Data analysis:** Add the libraries actually used in your code, such as pandas and NumPy
 - **Visualization / dashboard:** Add the framework and charting libraries actually used in your application
 
-> Update this section to match the project's actual imports and implementation. The dashboard screenshot displays Linear Regression with an R² value of 0.984.
 
 ## How It Works
 
