@@ -39,10 +39,21 @@ The model was evaluated on a **chronological holdout set** consisting of the fin
 
 ## Technology Stack
 
-- **Language:** Python
-- **Machine learning:** Linear Regression (as displayed in the dashboard)
-- **Data analysis:** Add the libraries actually used in your code, such as pandas and NumPy
-- **Visualization / dashboard:** Add the framework and charting libraries actually used in your application
+- **Core & Runtime:** Python 3
+- **Machine Learning:** 
+  - `scikit-learn` – Linear Regression, `Pipeline`, `ColumnTransformer`, `OneHotEncoder`, `permutation_importance`
+  - `joblib` – Model serialization and pipeline persistence
+- **Data Engineering & Analysis:** 
+  - `pandas` – Time-series preprocessing, rolling averages, lag feature generation
+  - `numpy` – Vectorized numerical operations and statistical evaluations
+- **Backend & API:** 
+  - `Flask` – RESTful endpoints for metrics, forecasts, and CSV report export
+  - `Waitress` – Multi-threaded production WSGI server
+- **Frontend & Dashboard:** 
+  - HTML5 & CSS3 (Fully responsive, dark-mode design with CSS Grid / Flexbox)
+  - Vanilla JavaScript (ES6+)
+  - `Chart.js` – Interactive historical vs. forecast line charts and holiday lift bar charts
+  - `Lucide Icons` – UI vector icons
 
 
 ## How It Works
